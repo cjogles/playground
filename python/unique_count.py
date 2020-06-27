@@ -47,3 +47,12 @@ print(test1.removeDuplicates([1, 2, 3, 3, 3, 4, 4, 5]))  # should return 5
 #     - After checking len(list) times, I should have a list with the unique items at the beginning,
 #       and all the duplicates pushed to the back. All that matters is returning the length of non-duplicate items in the input list,
 #       so I can now return [pointer1 + 1] because that would be equal to the length of unique items in the list.
+
+# TIME COMPLEXITY
+# -
+
+# SPACE COMPLEXITY
+# - 
+
+# FUTURE NOTES FOR OPTIMIZATION
+# - 
