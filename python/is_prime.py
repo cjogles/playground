@@ -4,6 +4,8 @@
 # Write a program to determine if a number, given on the command line, is prime.
 
 def solution(num):
+    if (num == 0):
+        return f"{num} is not a prime number"
     if (num >= 1):
         for x in range(1, num//2):
             if (num % x) == 0:
