@@ -18,7 +18,7 @@ def sieve_of_eratosthenes(limit):
     return ("Here are your list of primes: ", candidates)
 
 
-print(sieve_of_eratosthenes(45)) 
+print(sieve_of_eratosthenes(45))
 # My explanation for this problem:
 # - Basically I just follow the sieve of eratosthenes algorithim to solve this problem. It works in the following way:
 # - All numbers from 2 through to the limit given are possible prime numbers. At the beginning, they are all considered "unmarked"
