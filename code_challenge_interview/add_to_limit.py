@@ -20,6 +20,7 @@
 #   - each package has an array of items (list of nums)
 #   - each package has a limit (also a num)
 #   - grab two items from package, whose weights add up to the limit of the package
+#   - its possible that there is no answer, if so return an empty array
 # Planning:
 #   - see comments in code. Its preferrable.
 #   - I can do this by subtracting the limit from each number.  
@@ -30,11 +31,10 @@
 # Execution:
 #   - see merge_packages(items, limit) below:
 # Reflection:
-# Reflection:
 #   - Time Complexity:
 #       - worst case scenario would be O(n) because there are no items that add up to limit, so I'd check every one. 
 #   - Space Complexity:
-#       - O(n) storage because it will potentially hold all items in differences array. 
+#       - O(n) storage because it will potentially hold all items in differences hashtable. 
 #   - What could I do better? closing thoughts?
 #       -  I think this is the most optimal solution because using a hashtable increases speed big time compared to 
 #          a nested for loop. I could consider naming conventions though.

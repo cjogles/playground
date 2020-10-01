@@ -54,7 +54,7 @@ def condense_linked_list(node):
         current_node = current_node.next
 
     # for each key in cache append it to the solution array.
-    for item in cache.items(): # O(n) - all duplicates
+    for item in cache.items(): # O(n) - all duplicates [key, value]
         solution_arr.append(item[0]) 
 
     # now iterate through solution array, and change it back into a linked list,
